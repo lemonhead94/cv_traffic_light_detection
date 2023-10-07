@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "traffic-light-detection"
+version = "0.1.0"
+description = ""
+authors = ["Jorit Studer <jorit.studer@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.9.18"
+matplotlib = "^3.8.0"
+pycocotools = "^2.0.7"
+opencv-python-headless = "^4.8.1.78"
+keras-cv = "^0.6.4"
+keras-core = "^0.1.7"
+tensorflow-macos = "^2.14.0"
+tqdm = "^4.66.1"
+
+
+[tool.poetry.group.dev.dependencies]
+isort = "^5.12.0"
+black = "^23.9.1"
+flake8 = "^6.1.0"
+ipykernel = "^6.25.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
